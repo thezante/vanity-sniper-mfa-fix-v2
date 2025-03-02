@@ -10,8 +10,8 @@ import (
 )
 
 var (
-	token    = "MTAyMjk4NDAyNTEyOTg4MTgxMQ.GxlyW7.gEAmYv9dcL67jnxiYyz5p_c1Pjea3Ia5PlqEaQ"
-	pass     = "Morvay1948."
+	token    = ""
+	pass     = ""
 	mfaToken string
 )
 
