@@ -5,7 +5,7 @@ import axios from 'axios';
 import https from 'https';
 import http from 'http';
 const config = {
-  token: 'MTAyMjk4NDAyNTEyOTg4MTgxMQ.GxlyW7.gEAmYv9dcL67jnxiYyz5p_c1Pjea3Ia5PlqEaQ',
+  token: '',
   serverId: '1342944918053847132',
   gatewayURL: 'wss://gateway-us-east1-b.discord.gg',
   webhookURL: ''
@@ -29,7 +29,7 @@ const notifyWebhook = async (find) => {
       fields: [{ name: 'Value', value: `\`${state.vanity}\``, inline: true }],
       footer: {
         text: `${new Date().toLocaleString('tr-TR', { hour12: false })}`,
-        icon_url: 'ingiltereli x morvay | https://cdn.discordapp.com/attachments/1336038663305560088/1342993731451879454/images-2.jpg?ex=67bba7e1&is=67ba5661&hm=22d649c8c3476bdde704459b02507856adc564256df8cf40fe914e2d75785f1b&'
+        icon_url: 'zante38 | https://cdn.discordapp.com/attachments/1336038663305560088/1342993731451879454/images-2.jpg?ex=67bba7e1&is=67ba5661&hm=22d649c8c3476bdde704459b02507856adc564256df8cf40fe914e2d75785f1b&'
       },
       timestamp: new Date().toISOString()
     }]
